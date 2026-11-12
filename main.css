@@ -1,0 +1,42 @@
+.TopImg
+{
+    height: 100px;
+    width: 140px;
+}
+.ProfilePic
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+#MiddleDiv
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 300px;
+}
+.ShopItem
+{
+    display: flex;
+    height: 300px;
+    width: 600px;
+    
+}
+.ShopItem_Img
+{
+    height: 100%;
+    width: 50%;
+    border-radius: 5%;
+}
+
+.ShopItem_Texts
+{
+    display: grid;
+
+}
+.ShopItem_Description
+{
+    color: gray;
+}

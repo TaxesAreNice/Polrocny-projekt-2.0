@@ -1,0 +1,15 @@
+.TopBar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  
+    height: 110px;
+    display: flex;       
+    align-items: center;  
+    justify-content: space-between;
+    padding: 0 20px;  
+
+    background-color: gray;
+}
+
